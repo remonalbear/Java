@@ -115,7 +115,7 @@ public class WordsInFiles {
       }*/
       
       for (String word : wordsFiles.keySet()){
-          if(word.equals("laid")){
+          if(word.equals("sea")){
               for(String file : wordsFiles.get(word) ){
                       System.out.println("file with  \"laid\" word is :" + file);
               }
